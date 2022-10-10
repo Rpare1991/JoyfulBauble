@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/4023b31188.js"></script>
+  
+    <title>Products | Joyful Bauble</title>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="container">
+        <div class="navbar">
+            <div class = "logo">
+                <img src="images/logo.png" width = "125px" alt="This is the brand logo">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></Contact></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height ="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>        
+    </div>
+
+<!--------- products --------->    
+        <div class="small-container">
+            
+            <div class="row thing">
+                <h2>All Products</h2>
+                <select >
+                    <option>Default Sorting</option>
+                    <option>Sort by Price</option>
+                    <option>Sort by Popularity</option>
+                    <option>Sort by rating</option>
+                    <option>Sort by Sale</option>
+
+
+                </select>
+            </div>
+
+
+            <div class="row">
+                <div class="col-4">
+                    <a href ="product-details.html">
+                    <img src="images/featured-1.jpg" alt="" > </a>
+                    <h4>Succulent (in pot)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$24.00</p>                    
+                </div>   
+                <div class="col-4">
+                    <img src="images/featured-2.jpg" alt="">
+                    <h4>Large Monstera</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$24.00</p>                
+                </div>
+                <div class="col-4">
+                    <img src="images/featured-3.jpg" alt="">
+                    <h4>Sunflower Hoop</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$24.00</p>            
+                </div>
+                <div class="col-4">
+                    <img src="images/featured-4.jpg" alt="">
+                    <h4>The Ciara</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$22.00</p>        
+                </div> 
+            </div>
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+            </div>
+            </div>  
+    </div> 
+
+<!--------- footer--------->
+    <div class="footer">
+        <div class ="container">
+            <div class="row-2 ">
+                <div class="footer-col-1">
+                    <h3>Follow us on our Socials</h3>
+                    <ul class="fa-ul">
+                        <i class="fa fa-facebook fa-2x"></i>
+                        <i class="fa fa-twitter fa-2x"></i>
+                        <i class="fa fa-instagram fa-2x"></i>
+                        <i class="fa fa-etsy fa-2x"></i>
+                      </ul>
+                </div>
+                <div class="footer-col-2">
+                    <ul class ="ul-footer">
+                        <li><img src="images/american-flag.jpg">  United States | English(US) |  $(USD)</li>
+                        <li>&#169 2022, JoyfulBaubleCo, Inc. </li>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
